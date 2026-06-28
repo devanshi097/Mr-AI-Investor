@@ -1,15 +1,13 @@
-function Hero() {
+export default function Hero() {
     return (
-        <section>
-            <h1>Mr. AI Investor</h1>
+        <section className="py-24 text-center">
+            <h1 className="text-7xl font-bold">Mr. AI Investor</h1>
 
-            <h2>Hi, welcome 👋</h2>
-
-            <p>
-                What business should we dive into today?
+            <p className="mt-6 text-2xl text-slate-300">
+                Help me understand this business
+                <br />
+                so I can decide for myself.
             </p>
         </section>
     );
 }
-
-export default Hero;

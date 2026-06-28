@@ -1,19 +1,9 @@
-function SearchBar() {
+export default function SearchBar() {
     return (
-        <section>
-            <h2>Search Company</h2>
-
-            <input
-                type="text"
-                placeholder="Search by company name or ticker..."
-            />
-
-            <br />
-            <br />
-
-            <button>Analyze Company →</button>
+        <section className="py-10 text-center">
+            <h2 className="text-3xl font-semibold">
+                Search Company
+            </h2>
         </section>
     );
 }
-
-export default SearchBar;
